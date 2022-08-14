@@ -6,20 +6,20 @@
 
 </div>
 
-### Este é um serviço bem simples e util para gerar imagens de capa para postagens (criado para o blog [tuliocalil.com.br](https://tuliocalil.com.br)) escrito em C# com [Dotnet core](https://dotnet.microsoft.com/en-us/download).
+### Este é um serviço bem simples e útil para gerar imagens de capa para postagens (criado para o blog [tuliocalil.com.br](https://tuliocalil.com.br)) escrito em C# com [Dotnet core](https://dotnet.microsoft.com/en-us/download).
 
 ### Você pode [testar o serviço acessando essa url aqui](https://thumb-generator.herou.com).
 
 ## Como usar
 
-A utlização é super simples, basta fazer uma chamada `GET` para o serviço na rota `/generatecover` passando os parametros requeridos e você terá como retorno uma imagem:
+A utilização é super simples, basta fazer uma chamada `GET` para o serviço na rota `/generatecover` passando os parâmetros requeridos e você terá como retorno uma imagem:
 
 ```bash
 curl --request GET \
   --url 'https://localhost:7282/generatecover?title=Como%20eu%20criei%20um%20servi%C3%A7o%20que%20gera%20thumbnails%20para%20meu%20blog%20usando%20C%23&tags=gitlab&tags=java&tags=github&tags=github&tags=csharp&author=Tulio%20Calil&date=11%20de%20agosto'
 ```
 
-### Parametros disponiveis
+### Parâmetros disponíveis
 
 | Nome   | Descrição                                                      | Requerido |
 | ------ | -------------------------------------------------------------- | --------- |
@@ -30,8 +30,8 @@ curl --request GET \
 
 ### Tags de tecnologia
 
-As tags são um array de string e são utilizadas para adicionar icones na thumb.
-Você pode consultar os icones suportados atualmente visitando a pasta ´[src/DotNetCover/Assets/Images/Techs](src/DotNetCover/Assets/Images/Techs)´.
+As tags são um array de string sendo utilizadas para adicionar ícones na thumb.
+Você pode consultar os ícones suportados atualmente visitando a pasta ´[src/DotNetCover/Assets/Images/Techs](src/DotNetCover/Assets/Images/Techs)´.
 
 ## Rodando local
 
@@ -40,7 +40,7 @@ Instale o [Dotnet core](https://dotnet.microsoft.com/en-us/download).
 Clone o projeto:
 
 ```bash
-git clone
+git clone git@github.com:tuliocll/post-thumb-generator.git
 ```
 
 Rode o projeto:
@@ -48,6 +48,12 @@ Rode o projeto:
 ```bash
 dotnet watch
 ```
+
+## Próximos passos
+
+- Aceitar configuração do tema via request (tamanho da imagem, qualidade, cores, bordas etc)
+- Adicionar possibilidade de upload da imagem para providers (AWS S3 ou Cloudinary)
+- Receber imagem do autor via request
 
 <div align="center">
 
