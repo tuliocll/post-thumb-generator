@@ -6,9 +6,7 @@
 
 </div>
 
-### Este é um serviço bem simples e útil para gerar imagens de capa para postagens (criado para o blog [tuliocalil.com.br](https://tuliocalil.com.br)) escrito em C# com [Dotnet core](https://dotnet.microsoft.com/en-us/download).
-
-### Você pode [testar o serviço acessando essa url aqui](https://thumb-generator.herou.com).
+Este é um serviço bem simples e útil para gerar imagens de capa para postagens (criado para o blog [tuliocalil.com.br](https://tuliocalil.com.br)) escrito em C# com [Dotnet core](https://dotnet.microsoft.com/en-us/download).
 
 ## Como usar
 
