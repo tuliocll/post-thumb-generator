@@ -29,12 +29,12 @@ curl --request GET \
 ### Tags de tecnologia
 
 As tags são um array de string sendo utilizadas para adicionar ícones na thumb.
-Você pode consultar os ícones suportados atualmente visitando a pasta ´[src/DotNetCover/Assets/Images/Techs](src/DotNetCover/Assets/Images/Techs)´.
+Você pode consultar os ícones suportados atualmente visitando a pasta `[src/DotNetCover/Assets/Images/Techs](https://github.com/tuliocll/post-thumb-generator/tree/master/src/DotNetCover/Assets/Images/techs)`.
 
 ## Rodando local
 
 Instale o [Dotnet core](https://dotnet.microsoft.com/en-us/download).
-
+https://github.com/tuliocll/post-thumb-generator/tree/master/src/DotNetCover/Assets/Images/techs
 Clone o projeto:
 
 ```bash
