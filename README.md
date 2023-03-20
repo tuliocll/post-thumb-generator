@@ -50,7 +50,7 @@ dotnet watch
 ## Próximos passos
 
 - Aceitar configuração do tema via request (tamanho da imagem, qualidade, cores, bordas etc)
-- Adicionar possibilidade de upload da imagem para providers (AWS S3 ou Cloudinary)
+- Adicionar possibilidade de upload da imagem para providers (AWS S3 ou [Cloudinary](https://console.cloudinary.com/invites/lpov9zyyucivvxsnalc5/ykesjpvdwryox8q7ehtf?t=default))
 - Receber imagem do autor via request
 
 <div align="center">
